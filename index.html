@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+ 
+<!-- If IE use the latest rendering engine -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Set the page to the width of the device and set the zoon level -->
+<meta name="viewport" content="width = device-width, initial-scale = 1">
+<title>Linda Daniels</title>
+<link rel="icon" href="lin.png">
+<!-- boostrap CDN link -->
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- google text links -->
+<link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Headland+One&family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+
+
+
+<style>
+.jumbotron{
+
+    padding: 15px;
+    font-family: 'Old Standard TT', serif;
+}
+
+
+.buscard {
+	 background-image: url(card2.png);
+	 background-size: cover;
+	 width:700px;
+	 height:400px;
+    font-family: 'times new roman', serif;
+    color:#D4AF37;
+    padding-left: 10px !important;
+	padding-top: 30px !important;
+	padding-bottom: 30px !important;
+    font-size:x-large;
+ 	text-align: left;
+}
+@media (max-width: 750px) {
+    .buscard {
+     background-image: url(card2.png);
+	 background-size: cover;
+	 width:250px ;
+	 height:125px ;
+    
+    padding-left: 5px !important;
+	padding-top: 0px !important;
+	padding-bottom: 15px !important;
+    font-size:x-small;
+ 	text-align: left;
+    }
+    
+}
+
+@media ( max-width: 1150px) {
+    .notes{
+    width:400px !important;
+    
+    font-size:medium !important;
+	}
+}
+.notes{
+	padding-left: 60px;
+	padding-right: 100px;
+	padding-top: 100px !important;
+	background-image: url(notepad3.png);
+	background-size: cover;
+    font-family: 'Gochi Hand', serif;
+    width:700px;
+    font-size:x-large;
+    text-align: left;
+}
+
+.topspace {
+	padding-top:150px !important;
+}
+ .postit{
+	background-color:#fffc9e;
+	font-family: 'Gochi Hand', serif;
+	 border-radius:0px !important;
+	 padding:20px !important;
+}
+.oldpaper,.oldpaperMid,.oldpaperBot{    
+	background-image: url(oldpaper11.jpg);
+    background-size: cover;
+}
+ .oldpaperMid{background-position: middle;}
+.oldpaperBot{background-position: bottom;}
+
+
+
+
+
+
+
+/* Adds borders for tabs */
+.tab-content {
+    padding: 0px;
+    height: 1100px;
+}
+.nav-tabs {
+    margin-bottom: 0;
+
+}
+.container-fluid {
+	background-image: url(woodbackground.jpg);
+	height: 300%;
+	background-position: center;
+  	background-size: cover;
+  	padding-right:0px !important;
+  	padding-left:0px;
+  	height: 1750px;
+
+
+  	 /* background-image: url(woodbackground.jpg);*/
+  
+  background-color:#9c8368;  /* Full height */
+}
+
+@media (max-width: 991px) {
+    .container-fluid {
+        background-image: url(woodbackgroundlong.jpg);
+        height: 300%;
+	background-position: center;
+  	background-size: cover;
+        height:3200px;
+    }
+    .navtabpadding {
+        padding-left: 20px;
+    }
+}
+.container {padding-top: 40px;}
+
+h1 {
+	font-family:'Headland One', serif;
+	font-style: bold;
+	font-size: xx-large;
+	color:white;
+	text-align: center;
+}
+h2 {
+	font-family:'Gochi Hand', serif;
+	font-style: bold;
+	font-size: 5em;
+	color:white;
+	background-color: black;
+}
+h3 {
+	font-family:'Gochi Hand', serif;
+	font-style: bold;
+	font-size: 1.5em;
+	color:white;
+}
+h4 {
+	font-family:'Gochi Hand', serif;
+	font-style: bold;
+	font-size: 1.5em;
+
+}
+
+h5 {top:35%;
+  transition: translateY(-50%);
+  width:100%;
+  font-family: sans-serif;
+  font-style: bold;
+  font-size:1.6em;
+  background:linear-gradient(#f5f0ae,#d6b97e,#deb96f);
+  -webkit-background-clip: text;
+  color:transparent;
+  text-align: center;
+  text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
+}
+h6 {top:35%;
+  transition: translateY(-50%);
+  width:100%;
+  font-family: sans-serif;
+  font-style: bold;
+  font-size:1.2em;
+  background:linear-gradient(#f5f0ae,#d6b97e,#deb96f);
+  -webkit-background-clip: text;
+  color:transparent;
+  text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
+}
+
+
+
+.thumbnail {
+	background:#fffaed;
+	border-color:white;
+	font-family:'Gochi Hand';
+	font-style: bold;
+	font-size: xx-large;
+	border-color:white;
+	border-width:5px;
+}
+
+
+.slide1{
+background-color: transparent;
+  height: 1400px;
+}
+.slide2{
+  background-color: transparent;
+  height: 1400px;
+}
+.slide3{
+ background-color: transparent;
+  height: 1400px;
+}
+
+
+.bg {
+  /* The image used */
+  background-image: url(woodbackground.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-link {
+	font-family:'Gochi Hand', serif;
+	font-style: bold;
+	font-size: 2em;
+	color:white;
+	padding:0px;
+	border-width:5px;
+	border-color:black;
+
+}
+.nav-tabs {
+	padding-bottom:20px;
+	font-family:'Gochi Hand', serif;
+	font-style:bold;
+	font-size: 2em;
+	color:white;
+	border:none;
+}
+
+
+.justifytext{
+	text-align: justify;
+}
+
+
+.tab-content{    
+}
+
+
+.nav-tabs > li > a{
+  background-image:url(oldpaper11.jpg);
+  color:#303030;
+
+border-top-color:#b59c64 !important;
+border-top-width:6px;
+border-top-right-radius: 0px;
+border-top-left-radius: 0px;
+border-bottom-left-radius: 20px ;
+border-bottom-right-radius: 20px ;
+  
+}
+.nav-tabs > li > a:hover{
+  background-color: #d4b672 !important;
+  border-bottom-color:#d4b672 !important;
+  border-bottom-width:3px !important;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  color: black !important;
+}
+.nav-tabs > .active a {
+  background-color: #d4b672 !important;
+  border-top:none !important;
+  border-left:none !important;
+  border-right:none !important;
+  border-bottom-color: #d4b672 !important;
+  border-bottom-width: 5px !important;
+  color: black !important;
+}
+.nav-tabs > .active a:hover {
+  border-bottom-width:5px !important;
+}
+
+.img-fluid {
+  max-width: 95%;
+  min-width: 95%;
+  height: auto;
+}
+
+.ldanielsborder { 
+   border-right:5px solid white;
+   border-left:5px solid white;
+   border-bottom:5px solid white;
+}
+
+
+
+</style>
+</head>
+<body>
+
+
+
+<div class="container-fluid">
+
+	<div class="col-md-4">
+		<img src="ldanielsname.jpg" class="img-fluid ldanielsborder">
+	</div>
+
+<div class="navtabpadding">
+	<ul class="nav nav-tabs">
+	    <li class="active"><a data-toggle="tab" href="#stories">stories</a></li>
+	    <li><a data-toggle="tab" href="#about">about</a></li>
+	    <li><a data-toggle="tab" href="#contact">contact</a></li>
+	</ul>
+</div>
+
+	<div class="tab-content">
+
+		<div id="stories" class="tab-pane fade in active">
+	  		
+	  	
+				<div id="theCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+
+					<ol class="carousel-indicators">
+						<li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#theCarousel" data-slide-to="1"></li>
+						<li data-target="#theCarousel" data-slide-to="2"></li>
+					</ol>
+
+					<div class="carousel-inner">
+						<div class="item active">
+							<div class="slide1">
+							<div class="container">
+								<div class="row">
+									<div class="justifytext">
+								  	<div class="col-md-6 col-xs-12">
+								    	<div class="jumbotron oldpaper">
+
+													<h1>FOX NEWS</h1>
+													
+													<p>By Linda Daniels</p>
+													<p>&nbsp</p>
+													<p>In an early morning stake out, police officer Brannon Robertson single-handedly solved a repeated theft happening during the predawn hours. Inadvertently, he also solved one the mysteries that is common to all mankind. The mystery of the lost item. It may be the car keys or the sock in the drier; both of them can quickly vanish, never to be seen again. This time the missing item was the morning newspaper, the Longview News Journal. According to White Oak resident Betty Hudson, her morning paper was missing.</p>
+													<p>After reporting it to the Journal, she later found out that several neighbors’ papers were also missing. Thinking it was an oversight by the carrier, Amy Hood reported her paper missing on five different occasions. Finally, one neighbor began to suspect foul play and became concerned that it might be a hoodlum, or prank. The White Oak Police department was notified. Officer Brannon Robertson set up a stake out on the cul-de-sac of Jamaica Circle. The stake out paid off. It was brought to light that an entire family was stealing the papers. It was a family of foxes . . .</p>
+													</div>
+										</div>
+								    
+
+								    <div class="col-md-6 col-xs-12">
+								      <div class="thumbnail">
+								          <img src="foxsmall.jpg" alt="Fox" style="width:100%">
+								          <div class="caption text-center">
+								            <p>An unrelated yet highly suspicious fox.</p>
+								          </div>
+								      </div>
+								      
+								      <div class="jumbotron oldpaperMid">
+													<span>
+													<p>Why steal a newspaper?</p>
+													<p>While the mystery of who is stealing the newspaper is solved, there are still so many unanswered questions such as... What are the foxes doing with the paper? Are they using the papers to redecorate their whole home or just the den? What is their favorite section of the paper - could it be the comics or maybe the sports?</p>
+													<p>Most importantly the question arises -- Why did the fox choose to steal the Longview News Journal? Did this theft demonstrate a newspaper preference or merely an opportunity? These are all unanswered questions that merit some thought.</p>
+													</span>
+										</div>
+								    </div>
+</div>
+								</div>
+							</div>
+						</div>
+						</div>
+
+
+						<div class="item">
+							<div class="slide2">
+								<div class="container">
+									<div class="text-justify">
+									<div class="row">
+								  	<div class="col-md-6 col-xs-12">
+								    	<div class="jumbotron oldpaperMid">
+													<h1>LONGVIEW TRAIN DEPOT RESTORED</h1>
+													<p>By Linda Daniels</p>
+													<p>&nbsp</p>
+													<p>A Union Pacific train roared through the station as visitors snapped photos duing the grand opening of Longview's Historic Train Depot held May 9-10, 2014. Eighteen months of renovation work were near completion with a few final details to be finished by June 30th.</p>
+													<p>The location now serves as a multimodal transportation center serving Amtrak, Thruway Amtrak's connecting bus line, Greyhound and Longview Transit bus systems. It also serves as a Union Pacific Railroad communication center.</p>
+													<p>The station looks as it did when it had its grand opening in May of 1940. Requirements of the $2.8 million grant to remodel the station were tied to the architectural purity of the Texas State Historical Commission. It required the depot to be refurbished following the original blueprints drawn in 1939.</p>
+													<p>The original idea of the Longview depot restoration took place forty years ago. Employed at the station for forty-four years, Griff Hubbard, Amtrak Revenue Manager commented,</p>
+										</div>
+									</div>
+									<div class="col-md-6 col-xs-12">
+								      	<div class="thumbnail">
+								          <img src="amtrak.jpg" alt="Fox" style="width:100%">
+								          <div class="caption text-center">
+								            <p>Amtrak offers a comfortable ride.</p>
+								          </div>
+								      	</div>
+										<div class="jumbotron oldpaperBot">
+													<p> "I went to my first meeting about whether or not the city of Longview should do this (restoration) under the administration of Mayor Tommy Carlisle." This gathering took place in 1974. Not until recent years was the idea brought to fruition.</p>
+													<p>The process began in 2009 when the city of Longview purchased the station and obtained a 20 year lease for the adjoining land. This was not the first time for a renovation of this station.</p>
+													<p>Following the Civil War the Texas and Pacific Railway (T&P) was granted a federal charter in 1871. It was commissioned to revive a railway project to connect from Texas to San Diego California according to Texas State Historical Association. After various rail company mergers, the Longview depot, built in the 1870's, was completely dismantled in 1939. It was replaced under the direction of the Missouri Pacific Railroad, which eventually merged with Union Pacific...</p>
+								    	</div>
+								    </div>
+
+
+								    
+								</div>
+								</div>
+							</div>
+						</div>
+						</div>
+
+
+					</div>
+
+				<a class="left carousel-control" href="#theCarousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span></a>
+
+				<a class="right carousel-control" href="#theCarousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span></a>
+
+				</div>
+			</div>
+	
+
+
+
+		<div id="about" class="tab-pane fade">
+
+			<div id="theCarouselabout" class="carousel slide" data-ride="carousel" data-interval="false">
+
+					<ol class="carousel-indicators">
+						<li data-target="#theCarouselabout" data-slide-to="0" class="active"></li>
+						<li data-target="#theCarouselabout" data-slide-to="1"></li>
+						<li data-target="#theCarouselabout" data-slide-to="2"></li>
+					</ol>
+
+					<div class="carousel-inner">
+						<div class="item active">
+							<div class="slide1">
+							<div class="container">
+								<div class="col-md-5 col-xs-12">
+						    	<div class="jumbotron oldpaper">	
+						    	<div class="text-justify">
+
+
+								<h1>&nbspLINDA</h1>
+								<p>Linda's wide range of experiences uniquely qualify her as a "Life Interpreter" i.e. "Freelance Writer."Linda has worked as a Reporter and Feature Writer for White Oak Independent Newspaper. Her work has also been published in numerous Texas newspapers, We The People online history magazine and Primary Treasure, a children's magazine.</p>
+								<p>After receiving her general business degree at Ambassador University, Linda went on for further education at Clown School, receiving her certification. She has had a lot of fun clowning both locally and in the circus.</p>
+								<p>Back at home Linda worked as office manageer and bookkeeper for Computer Tech and Home Tech Company.</p>
+								<p>Currently Linda is a member of the Gregg County Historical Commission. Other experience includes School Board of Directors. Friends of the Longview Public Library board member, Upshur County Arts Council Public Relations, Hospice Visitation, and Meals on Wheels delivery.</p>
+								<p>Linda and Roger home schooled their son, Cody, who went on to receive his degree in mechanical engineering.</p>
+								</div>
+								</div>
+								</div>
+
+								<div class="col-md-4 col-xs-12">
+									<div class="thumbnail">
+										<img src="lindaroger.jpg" alt="pic missing" style="width:100%">
+										<div class="caption text-center">
+											<p>Linda and Roger</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4 col-xs-12">
+									<div class="container notes">
+										<p>&nbsp</p><h4>&nbspRoger</h4> <p>&nbsp</p>
+										<p>Roger, an entrepreneur, has established a variety of businesses including Computer Tech, a full serice computer store, and Home Tech, a home repair and property management company. Linda has worked as office manager in these businesses for over 25 years.<p>&nbsp</p><p>&nbsp</p>
+									</div>
+								</div>
+
+							</div>
+							</div>
+							</div>
+
+
+						<div class="item">
+							<div class="slide2">
+							<div class="container topspace">
+								<div class="col-md-2"></div>
+								<div class="col-md-4">
+										<div class="thumbnail">
+										<img src="dandy.jpg" alt="pic missing" style="width:100%">
+										<div class="caption text-center">
+										<p>Dandy</p>
+										</div>
+										</div>
+								</div>
+								<div class="col-md-4">
+									<div class="jumbotron postit">
+										<p>&nbsp</p>
+										<p>Linda has enjoyed training Dandy since he was little.</p>
+										<p>Now, although he is only 34 inches tall, Dandy thinks he is big because he can pull a cart.
+										<p>&nbsp</p>
+									</div>
+								</div>
+								<div class="col-md-2"></div>
+							</div>
+							</div>
+						</div>
+
+
+							<div class="item">
+							<div class="slide3">
+								<div class="row">
+							
+									<div class="container topspace">
+									<div class="col-md-3"></div>
+									<div class="col-md-5">
+											<div class="thumbnail">
+												<img src="splashcontr.jpg" alt="pic missing" style="width:100%">
+												<div class="caption text-center">
+													<p>Linda and Cody in uniform</p>
+												</div>
+											</div>
+									</div>
+									<div class="col-md-4"></div>
+									</div>
+							
+								</div>
+							</div>
+							</div>
+						</div>
+
+				<a class="left carousel-control" href="#theCarouselabout" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span></a>
+
+				<a class="right carousel-control" href="#theCarouselabout" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span></a>
+
+			</div>
+
+
+			
+			</div>
+
+		<div id="contact" class="tab-pane fade">
+		    				<div class="container topspace">
+							
+								<div class="container buscard">
+
+
+										
+										<p>&nbsp</p>
+										<h5>Linda Daniels</h5>
+										<p>&nbsp</p>
+										<h6>&nbsp&nbsp&nbsp&nbspEmail: ldaniels2011@gmail.com</h6>
+										<h6>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCall: 903.918.2766</h6>
+								</div>
+							</div>
+							
+		</div>
+
+
+
+		
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
